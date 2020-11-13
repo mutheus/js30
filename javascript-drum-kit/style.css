@@ -1,0 +1,58 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: system-ui;
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+  background-color: #000;
+  background: url('https://i.imgur.com/b9r5sEL.jpg') bottom center;
+  background-size: cover;
+}
+
+.keys {
+  display: grid;
+  grid-auto-rows: 30vw;
+  grid-template-columns: repeat(auto-fill, minmax(min-content, 30vw));
+  grid-gap: 5px;
+  justify-content: center;
+}
+
+.key {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: .4rem solid black;
+  border-radius: 100%;
+  transition: all .07s ease;
+  text-align: center;
+  color: #333;
+  background: #ffc;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc;
+  box-shadow: 0 0 1rem #ffc;
+}
+
+kbd {
+  font-size: 1rem;
+}
+
+.sound {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ffc600;
+}
+
+@media(min-width: 600px) {
+  html {
+    font-size: 225%;
+  }
+}
