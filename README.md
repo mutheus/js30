@@ -12,3 +12,4 @@ Challenges:
 
 04 - [Array Cardio Day 1](https://mutheusalmeida.github.io/js30/array-cardio-day-1/)
 
+05 - [Flex Panel Gallery](https://mutheusalmeida.github.io/js30/flex-panel-gallery/)
