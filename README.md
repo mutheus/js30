@@ -8,5 +8,7 @@ Challenges:
 
 02 - [JS and CSS Clock](https://mutheusalmeida.github.io/js30/js-and-css-clock/)  
 
-03 - [CSS Variables](https://mutheusalmeida.github.io/js30/css-variables/)
+03 - [CSS Variables](https://mutheusalmeida.github.io/js30/css-variables/)  
+
+04 - [Array Cardio Day 1](https://mutheusalmeida.github.io/js30/array-cardio-day-1/)
 
