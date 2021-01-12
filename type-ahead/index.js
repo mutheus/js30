@@ -17,12 +17,8 @@ const app = (function () {
       });
     },
       
-    numberWithCommas: function numberWithCommas(num) {
-      return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-    },
-      
-    displayResult: function displayResult(search, cities) {
-      const suggestions = document.querySelector('.suggestions');
+    displayResult: function displayResult(search, cities, suggestions, defaultItems) {
+      const formatter = new Intl.NumberFormat('en-US');
       const result = app.findResults(search, cities);
       
       const html = result.map(place => {
@@ -33,22 +29,27 @@ const app = (function () {
         return `
           <li>
             <span class="name">${city}, ${state}</span>
-            <span class="population">${app.numberWithCommas(place.population)}</span>
+            <span class="population">${formatter.format(place.population)}</span>
           </li>
         `;
       }).join('');
       
-      suggestions.innerHTML = html;
-          
-      if(!search)
-        suggestions.innerHTML = '<li>ex: Boston</li><li>or Massachusetts</li>';
+      if(search) {
+        suggestions.innerHTML = html;
+        
+        return;
+      }
+        
+      suggestions.innerHTML = defaultItems;
     },
     
     getSearch: function getSearch(cities) {
       const input = document.querySelector('.search');
+      const suggestions = document.querySelector('.suggestions');
+      const defaultItems = suggestions.innerHTML;
       
       function handleKeyUp() {
-        return app.displayResult(this.value, cities);
+        return app.displayResult(this.value, cities, suggestions, defaultItems);
       }
 
       input.addEventListener('keyup', handleKeyUp);

@@ -37,6 +37,7 @@ input.search {
 .suggestions {
   text-transform: lowercase;
   overflow: scroll;
+  padding: 0;
 }
 
 .suggestions li {
