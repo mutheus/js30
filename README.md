@@ -17,5 +17,5 @@ Challenges:
 
 06 - [Type Ahead](https://mutheusalmeida.github.io/js30/type-ahead/)
 
-07 - [Array Cardio Day 2](https://mutheusalmeida.github.io/array-cardio-day-2/)  
+07 - [Array Cardio Day 2](https://mutheusalmeida.github.io/js30/array-cardio-day-2/)  
 
