@@ -16,3 +16,6 @@ Challenges:
 *Now the gallery allows only one open panel at a time*  
 
 06 - [Type Ahead](https://mutheusalmeida.github.io/js30/type-ahead/)
+
+07 - [Array Cardio Day 2](https://mutheusalmeida.github.io/js30/array-cardio-day-2/)  
+
