@@ -19,3 +19,5 @@ Challenges:
 
 07 - [Array Cardio Day 2](https://mutheusalmeida.github.io/js30/array-cardio-day-2/)  
 
+08 - [Fun With HTML5 Cavas](https://mutheusalmeida.github.io/js30/fun-with-html5-canvas/)  
+*Touch events and click added*
