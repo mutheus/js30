@@ -13,37 +13,22 @@ const app = (function() {
       this.draw();
     },
     
-    drawLine: function drawLine(e) {
+    drawLine: function drawLine(actualCoordinates) {
       if(!isDrawing)
         return;
       
-      let pageX;
-      let pageY;
-    
-      switch(e.type) {
-        case 'click':
-        case 'mousemove':
-          pageX = e.offsetX;
-          pageY = e.offsetY;
-          break;
-        default:
-          pageX = e.changedTouches[0].pageX;
-          pageY = e.changedTouches[0].pageY;
-          break;
-      }
-      
       context.beginPath();
-      context.moveTo(lastX, lastY);
-      context.lineTo(pageX, pageY);
+      context.moveTo(...lastCoordinates);
+      context.lineTo(...actualCoordinates);
       context.stroke();
       
-      [lastX, lastY] = [pageX, pageY];
+      [lastCoordinates] = [actualCoordinates];
     },
     
     mouseOrTouchEvent: function mouseOrTouchEvent(e) {
       [isDrawing] = [true];
       
-      [lastX, lastY] = [e.offsetX, e.offsetY];
+      [lastCoordinates] = [[e.offsetX, e.offsetY]];
     },
     
     drawingEndOrOut: function drawingEndOrOut() {
@@ -55,9 +40,9 @@ const app = (function() {
       canvas.addEventListener('touchstart', app.mouseOrTouchEvent);
       canvas.addEventListener('click', app.mouseOrTouchEvent);
       
-      canvas.addEventListener('mousemove', app.drawLine);
-      canvas.addEventListener('touchmove', app.drawLine);
-      canvas.addEventListener('click', app.drawLine);
+      canvas.addEventListener('mousemove', (e) => app.drawLine([e.offsetX, e.offsetY]));
+      canvas.addEventListener('click', (e) => app.drawLine([e.offsetX, e.offsetY]));
+      canvas.addEventListener('touchmove', (e) => app.drawLine([e.changedTouches[0].pageX, e.changedTouches[0].pageY]));
 
       canvas.addEventListener('mouseup', app.drawingEndOrOut);
       canvas.addEventListener('touchend', app.drawingEndOrOut);
