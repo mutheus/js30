@@ -26,3 +26,5 @@ Challenges:
 
 10 - [Hold Shift and Check Checkboxes](https://mutheusalmeida.github.io/js30/hold-shift-and-check-checkboxes/)  
 
+11 - [Custom Video Player](https://mutheusalmeida.github.io/js30/custom-video-player/)  
+
