@@ -22,5 +22,7 @@ Challenges:
 08 - [Fun With HTML5 Cavas](https://mutheusalmeida.github.io/js30/fun-with-html5-canvas/)  
 *Touch events and click added*  
 
-08 - [Dev Tools Domination](https://mutheusalmeida.github.io/js30/dev-tools-domination/)
+09 - [Dev Tools Domination](https://mutheusalmeida.github.io/js30/dev-tools-domination/)
+
+10 - [Hold Shift and Check Checkboxes](https://mutheusalmeida.github.io/js30/hold-shift-and-check-checkboxes/)  
 
