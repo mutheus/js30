@@ -28,3 +28,5 @@ Challenges:
 
 11 - [Custom Video Player](https://mutheusalmeida.github.io/js30/custom-video-player/)  
 
+12 - [Key Sequence Detection](https://mutheusalmeida.github.io/js30/key-sequence-detection/)  
+
