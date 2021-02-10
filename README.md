@@ -30,3 +30,5 @@ Challenges:
 
 12 - [Key Sequence Detection](https://mutheusalmeida.github.io/js30/key-sequence-detection/)  
 
+13 - [Slide in on Scroll](https://mutheusalmeida.github.io/js30/slide-in-on-scroll/)  
+
