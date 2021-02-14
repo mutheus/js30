@@ -31,4 +31,9 @@ Challenges:
 
 12 - [Key Sequence Detection](https://mutheusalmeida.github.io/js30/key-sequence-detection/)  
 
+<<<<<<< HEAD
 13 - [JavaScript References vs Copying](https://mutheusalmeida.github.io/js30/javascript-references-vs-copying)
+=======
+13 - [Slide in on Scroll](https://mutheusalmeida.github.io/js30/slide-in-on-scroll/)  
+
+>>>>>>> ea33329e84dec2b01455cd5f8348cecf279f8aa8
