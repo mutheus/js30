@@ -27,6 +27,8 @@ Challenges:
 10 - [Hold Shift and Check Checkboxes](https://mutheusalmeida.github.io/js30/hold-shift-and-check-checkboxes/)  
 
 11 - [Custom Video Player](https://mutheusalmeida.github.io/js30/custom-video-player/)  
+*With fullscreen functionality; show/hide controls on touch; hide controls after 2 sec of inactivity; autoplay and click to unmute*
 
 12 - [Key Sequence Detection](https://mutheusalmeida.github.io/js30/key-sequence-detection/)  
 
+13 - [JavaScript References vs Copying](https://mutheusalmeida.github.io/js30/javascript-references-vs-copying)
