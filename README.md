@@ -34,3 +34,5 @@ Challenges:
 13 - [Slide in on Scroll](https://mutheusalmeida.github.io/js30/slide-in-on-scroll/)  
 
 14 - [JavaScript References vs Copying](https://mutheusalmeida.github.io/js30/javascript-references-vs-copying)
+
+15 - [LocalStorage](https://mutheusalmeida.github.io/js30/local-storage)
