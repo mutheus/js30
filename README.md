@@ -36,4 +36,6 @@ Challenges:
 14 - [JavaScript References vs Copying](https://mutheus.github.io/js30/javascript-references-vs-copying)
 
 15 - [LocalStorage](https://mutheus.github.io/js30/local-storage)  
-*Clear all, check all, and uncheck all buttons added*
+*Clear all, check all, and uncheck all buttons added*  
+
+16 - [Mouse Move Shadow](https://mutheus.github.io/js30/mouse-move-shadow)  
