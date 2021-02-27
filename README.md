@@ -39,3 +39,5 @@ Challenges:
 *Clear all, check all, and uncheck all buttons added*  
 
 16 - [Mouse Move Shadow](https://mutheus.github.io/js30/mouse-move-shadow)  
+
+17 - [Sort Without Articles](https://mutheus.github.io/js30/sort-without-articles)  
