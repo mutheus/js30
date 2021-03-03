@@ -46,4 +46,4 @@ Challenges:
 
 19 - [Webcam Fun](https://mutheus.github.io/js30/webcam-fun) 
 
-19 - [Speech Detection](https://mutheus.github.io/js30/speech-detection)  
+20 - [Speech Detection](https://mutheus.github.io/js30/speech-detection)  
