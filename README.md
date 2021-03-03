@@ -44,4 +44,6 @@ Challenges:
 
 18 - [Adding up Times With Reduce](https://mutheus.github.io/js30/adding-up-times-with-reduce)  
 
-19 - [Webcam Fun](https://mutheus.github.io/js30/webcam-fun)  
+19 - [Webcam Fun](https://mutheus.github.io/js30/webcam-fun) 
+
+19 - [Speech Detection](https://mutheus.github.io/js30/speech-detection)  
