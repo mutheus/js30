@@ -3,7 +3,7 @@ const highlight = document.createElement('span');
 highlight.classList.add('highlight');
 document.body.append(highlight);
 
-function highlightLinks() {
+function highlightLink() {
   const linkCoords = this.getBoundingClientRect();
   
   const coords = {
@@ -15,7 +15,7 @@ function highlightLinks() {
   
   highlight.style.width = `${coords.width}px`;
   highlight.style.height = `${coords.height}px`;
-  highlight.style.transform = `translate(${coords.top}px, ${coords.left})`;
+  highlight.style.transform = `translate(${coords.left}px, ${coords.top}px)`;
 }
 
-links.forEach(a => a.addEventListener('mouseenter', highlightLinks));
+links.forEach(a => a.addEventListener('mouseenter', highlightLink));
