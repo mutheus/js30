@@ -49,3 +49,5 @@ Challenges:
 20 - [Speech Detection](https://mutheus.github.io/js30/speech-detection)  
 
 21 - [Geolocation](https://mutheus.github.io/js30/geolocation)  
+
+22 - [Follow Along Link Highlighter](https://mutheus.github.io/js30/follow-along-link-highlighter)  
