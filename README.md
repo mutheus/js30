@@ -52,4 +52,4 @@ Challenges:
 
 22 - [Follow Along Link Highlighter](https://mutheus.github.io/js30/follow-along-link-highlighter)  
 
-22 - [Speech Synthesis](https://mutheus.github.io/js30/speech-synthesis)  
+23 - [Speech Synthesis](https://mutheus.github.io/js30/speech-synthesis)  
