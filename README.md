@@ -55,3 +55,5 @@ Challenges:
 23 - [Speech Synthesis](https://mutheus.github.io/js30/speech-synthesis)  
 
 24 - [Sticky Nav](https://mutheus.github.io/js30/sticky-nav)  
+
+25 - [Event Capture, Propagation, Bubbling and Once](https://mutheus.github.io/js30/event-capture-propagation-bubbling-and-once)  
