@@ -57,3 +57,5 @@ Challenges:
 24 - [Sticky Nav](https://mutheus.github.io/js30/sticky-nav)  
 
 25 - [Event Capture, Propagation, Bubbling and Once](https://mutheus.github.io/js30/event-capture-propagation-bubbling-and-once)  
+
+26 - [Stripe Follow Along Nav](https://mutheus.github.io/js30/stripe-follow-along-nav)  
