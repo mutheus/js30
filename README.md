@@ -61,3 +61,5 @@ Challenges:
 26 - [Stripe Follow Along Nav](https://mutheus.github.io/js30/stripe-follow-along-nav)  
 
 27 - [Click and Drag](https://mutheus.github.io/js30/click-and-drag)  
+
+28 - [Video Speed Controller](https://mutheus.github.io/js30/video-speed-controller)  
