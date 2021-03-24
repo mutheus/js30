@@ -63,3 +63,5 @@ Challenges:
 27 - [Click and Drag](https://mutheus.github.io/js30/click-and-drag)  
 
 28 - [Video Speed Controller](https://mutheus.github.io/js30/video-speed-controller)  
+
+29 - [Countdown Timer](https://mutheus.github.io/js30/countdown-timer)  
