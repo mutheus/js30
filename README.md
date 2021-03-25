@@ -65,3 +65,5 @@ Challenges:
 28 - [Video Speed Controller](https://mutheus.github.io/js30/video-speed-controller)  
 
 29 - [Countdown Timer](https://mutheus.github.io/js30/countdown-timer)  
+
+30 - [Whack A Mole](https://mutheus.github.io/js30/whack-a-mole)  
