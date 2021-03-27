@@ -1,9 +1,12 @@
 const holes = document.querySelectorAll('.hole');
 const scoreBoard = document.querySelector('.score');
 const moles = document.querySelectorAll('.mole');
+const record = document.querySelector('.record');
 let lastHole;
 let timeUp = false;
 let score = 0;
+let lastScore = localStorage.getItem('score', score);
+record.textContent = lastScore !== null ? lastScore : 0;
 
 function randomTime(min, max) {
   return Math.round(Math.random() * (max - min) + min);
@@ -39,12 +42,19 @@ function startGame() {
   timeUp = false;
   peep();
   score = 0;
-  setTimeout(() => timeUp = true, 10000);
+  
+  setTimeout(() => {
+    timeUp = true;
+    if (lastScore < score) {
+      localStorage.setItem('score', score);
+      record.textContent = score;
+    }
+  }, 10000);
 }
 
 function bonk(e) {
   if (!e.isTrusted) return;
-  score++
+  score++;
   this.classList.remove('up');
   scoreBoard.textContent = score;
 }
