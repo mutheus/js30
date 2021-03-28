@@ -11,7 +11,7 @@ body {
   margin: 0;
   height: 100vh;
   display: grid;
-  align-content: center;
+  align-items: center;
   background-color: #000;
   background: url('https://i.imgur.com/b9r5sEL.jpg') bottom center;
   background-size: cover;
@@ -20,7 +20,7 @@ body {
 .keys {
   display: grid;
   grid-auto-rows: 30vw;
-  grid-template-columns: repeat(auto-fill, minmax(min-content, 30vw));
+  grid-template-columns: repeat(auto-fill, 30vw);
   grid-gap: 5px;
   justify-content: center;
 }
@@ -58,5 +58,10 @@ kbd {
 @media(min-width: 600px) {
   html {
     font-size: 225%;
+  }
+  
+  .keys {
+    grid-auto-rows: 30vh;
+    grid-template-columns: repeat(auto-fill, 30vh);
   }
 }
